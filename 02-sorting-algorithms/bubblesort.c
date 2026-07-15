@@ -14,6 +14,10 @@ int main(){
                 int temp=arr[j];
                 arr[j]=arr[j+1];
                 arr[j+1]=temp;
+                printf("The array after %d pass is:\n",i+1);
+                for(int k=0;k<n;k++){
+                    printf("%d ",arr[k]);
+                }
            }
         }
     }
